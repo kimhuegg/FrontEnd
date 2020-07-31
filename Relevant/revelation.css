@@ -102,6 +102,7 @@ hr{
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
+    position: relative;
 }
 #leftControl{
     padding-top: 25px;
