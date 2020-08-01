@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Tahoma, Geneva, sans-serif	;
+    line-height: normal;
+}
+a{
+    text-decoration: none;
+    display: block;
+    padding: .5em 2em;
+    color: #a8b9c0;
+}
+p{
+    color: #a8b9c0;
+    text-align: center;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.wrapper{
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    padding-top: 2rem;
+}
+h4{
+    text-align: center;
+}
+hr{
+    width: 10em;
+    margin: 0 auto;
+}
+.bottom{
+    background-color: #ff3150;
+    margin-left: .5rem;
+    color: yellow;
+    display: inline;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+/***********HEADER*/
+#header{
+    padding-top: 1em;
+    background-color: #19283f;
+    width: 100%
+}
+#navBar{
+    display: flex;
+}
+#navBar #menu a:hover{
+    color: blue;
+}
+#logo{
+    width: 50%;
+}
+#header-title{
+    color: aliceblue;
+    text-align: center;
+    padding: 9rem;
+}
+
+/************SERVICES*/
+#service li{
+    width: 100%;
+    padding: 3em;
+}
+/************PORTFOLIO*/
+#portfolio{
+    background-color: #eff7fa;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+#portfolio-menu{
+    margin-top: 5rem ;
+    justify-content: center;
+}
+#portfolio-works{
+    margin-top: 4rem;
+    padding-left: .5rem;
+    padding-top: .5rem;
+    margin-bottom: 5rem;
+}
+#portfolio-works p{
+    background-color: #33d1cc;
+    display: inline-block;
+    margin: .6rem;
+    width: 23%;
+    height: 180px;
+}
+/****************ABOUT US*/
+#aboutUs-title{
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 3rem;
+}
+#aboutUs-info{
+    width: 40%;
+    padding-bottom: 3rem;
+}
+#aboutUs-info p{
+    text-align: left;
+}
+#aboutUs-info h2{
+    text-align: left;
+}
+/***************MEET THE TEAM*/
+#meetTheTeam h2{
+    color: rgb(214, 214, 119);
+}
+#meetTheTeam{
+    background-color: #eff7fa;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+#meetTheTeam-title{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+#meetTheTeam-team li{
+    margin: .6rem;
+    width: 23%;
+
+}
+.mask{
+    background-color: #33d1cc;
+    color: #eff7fa;
+    padding: 1rem;
+    border-top: 14rem solid white
+}
+.path{
+    background-color: white;
+    padding: 2rem;
+}
+/*****************ADVERTISE*/
+#advertise{
+    width: 100%;
+    background-color: #19283f;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
+#advertise-title h2{
+    color: #eff7fa;
+}
+#advertise-title{
+    text-align: center;
+}
+/******************BLOG*/
+#blog{
+    padding-bottom: 3rem;
+}
+#blog-title{
+    padding-bottom: 3rem;
+}
+#blog ul{
+    width: 100%;
+    padding-bottom: 3rem;
+}
+#blog ul li{
+    border-top: 10rem solid #eff7fa;
+    margin: .6rem;
+    width: 33%;
+    padding: 1rem;
+}
+#blog ul li p{
+    text-align: left;
+}
+#blog ul li strong{
+    color: black;
+}
+#blog .wrapper{
+    text-align: center;
+}
+/**************newsletter*/
+#newsletter{
+    width: 100%;
+    background-color: #ffc400;
+    padding: 2rem;
+}
+#newsletter .bottom{
+    background-color: #19283f;
+}
+#newsletter p{
+    color: #19283f;
+}
+#newsletter input{
+    background-color: #ffc400;
+    color: white;
+    width: 30%;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid white;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+/*********Footer*/
+#footer{
+    line-height: initial;
+    background-color: #19283f;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#footer p{
+    text-align: left;
+}
+#footer h4{
+    text-align: left;
+    color: #eff7fa;
+}
+#footer .wrapper div{
+    display: inline-block;
+}
+#firstCol{
+    width: 40%;
+}
+#secondCol{
+    width: 15%;
+}
+#thirdCol{
+    width: 15%;
+}
+#fourCol{
+    width: 25%;
+}
+#footer #fourCol p{
+    padding-bottom: 3rem;
+}
