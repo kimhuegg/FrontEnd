@@ -1,0 +1,19 @@
+.card{
+    transition: .4s;
+}
+.diphai{
+    /* transform: translateX(200px); */
+    animation: sangphai 1s forwards;
+}
+@-webkit-keyframes sangphai{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(800px);
+        opacity: 0;
+    }
+}

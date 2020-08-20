@@ -1,14 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 body{
     font-family:Tahoma, Geneva, sans-serif	;
+    width: 100%;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
-    display: block;
-    padding: .5em 2em;
     color: #a8b9c0;
 }
 
@@ -16,31 +18,25 @@ p{
     color: #a8b9c0;
     text-align: center;
 }
-ul{
-    display: flex;
-}
+
 li{
     list-style: none;
-    text-align: center;
 }
 .wrapper{
-    max-width: 1200px;
-    min-width: 1200px;
     margin: 0 auto;
 }
 h2{
     text-align: center;
-    padding-top: 2rem;
 }
 h4{
     text-align: center;
     color: #ffc400;
 }
 hr{
-    width: 10em;
-    margin: 0 auto;
+    width: 10rem;
+    margin: 1.5rem auto 2rem auto;
 }
-.bottom{
+/*.bottom{
     background-color: #ff3150;
     margin-left: .5rem;
     color: yellow;
@@ -48,17 +44,19 @@ hr{
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-}
+}*/
 .logo-title{
     margin-top: 3rem;
 }
+.number{
+   
+}
 .title{
-    position: relative;
+    position: absolute;
     margin-left: -80px;
 }
 /***********HEADER*/
 #header{
-    padding-top: 1em;
     background-color: #19283f;
     width: 100%
 }
@@ -76,50 +74,83 @@ a:hover{
     text-align: center;
     padding: 9rem;
 }
-
+#search a{
+    display: block;
+}
+#search {
+    display: flex;
+}
+#navBar ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 /************SERVICES*/
+#service{
+    padding-bottom: 2.5rem;
+}
 #service li{
     width: 100%;
-    padding: 3em;
 }
 #service-title{
     text-align: center;
 }
+.service-content{
+width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 1rem;
+justify-content: space-between;
+}
+.service-content div{
+    width: 90%;
+    text-align: center;
+}
+.content-img {
+        position: relation;
+        height: 50%;
+    }
+.title{
+        position: absolute;
+    }
+
+
 /************PORTFOLIO*/
 #portfolio{
     background-color: #eff7fa;
     width: 100%;
     text-align: center;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 #portfolio-menu{
-    margin-top: 5rem ;
-    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
 }
 #portfolio-works{
-    margin-top: 4rem;
-    padding-left: .5rem;
-    padding-top: .5rem;
-    margin-bottom: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     display: grid;
-    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 1rem;
+}
+#portfolio-works div{
+    background-color: white;
+    height: 180px;
+}
+#portfolio-works div:hover{
+    background-color: #33d1cc;
+      color: #eff7fa;
 }
 #portfolio-works p{
-    background-color: white;
-    margin: .6rem;
-    padding-top: 85px;
-    padding-bottom: 85px;
     color: #eff7fa;
-}
-#portfolio-works p:hover{
-    background-color: #33d1cc;
-    color: #eff7fa;
+
 }
 #portfolio-menu a:hover{
     background-color: #ff3150;
     color: yellow;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
     border-radius: 15px;
 }
 /****************ABOUT US*/
@@ -130,8 +161,6 @@ a:hover{
     text-align: center;
 }
 #aboutUs-info{
-    width: 50%;
-    padding-bottom: 3rem;
 }
 #aboutUs-info p{
     text-align: left;
@@ -141,35 +170,39 @@ a:hover{
 }
 #info-macBook{
     display: flex;
-
+    justify-content: space-between;
 }
 /***************CLIENT*/
 #clients .wrapper ul{
     margin-top: 3rem;
     margin-bottom: 3rem;
     display: flex;
-}
-#clients .wrapper li{
-    width: 1000px;
+    justify-content: space-around;
 }
 /***************MEET THE TEAM*/
 #meetTheTeam h2{
     color: rgb(214, 214, 119);
 }
 #meetTheTeam{
+
     background-color: #eff7fa;
     width: 100%;
     padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 #meetTheTeam-title{
     width: 80%;
     margin: 0 auto;
     padding-bottom: 3rem;
 }
+#meetTheTeam-team {
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: space-around;
+}
 #meetTheTeam-team li{
-    margin: .6rem;
-    width: 23%;
-
+    width: 300px;
+    margin: 0.75rem 1rem;
 }
 .mask{
     background-color: #33d1cc;
@@ -186,7 +219,7 @@ a:hover{
     width: 100%;
     background-color: #19283f;
     padding-top: 5rem;
-    padding-bottom: 7rem;
+    padding-bottom: 5rem;
 }
 #advertise-title h2{
     color: #eff7fa;
@@ -202,13 +235,16 @@ a:hover{
     padding-bottom: 3rem;
 }
 #blog ul{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     padding-bottom: 3rem;
+    justify-content: space-around;
 }
 #blog ul li{
+    background-color: #ffc400;
     border-top: 10rem solid #eff7fa;
     margin: .6rem;
-    width: 33%;
     padding: 1rem;
 }
 #blog ul li p{
@@ -228,9 +264,16 @@ a:hover{
 }
 #newsletter .bottom{
     background-color: #19283f;
+    margin: 0 1rem;
 }
 #newsletter p{
     color: #19283f;
+    margin: 0 1rem;
+}
+#newsletter .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 #newsletter input{
     background-color: #ffc400;
@@ -239,8 +282,11 @@ a:hover{
     height: 30px;
     border: 0;
     border-bottom: 1px solid white;
-    margin-left: 2rem;
-    margin-right: 1rem;
+}
+#newsletter a{
+    display: block;
+    outline: 2px solid #19283f;
+    outline-offset: .5rem;
 }
 /*********Footer*/
 #footer{
@@ -256,24 +302,87 @@ a:hover{
     text-align: left;
     color: #eff7fa;
 }
-#footer .wrapper div{
-    display: inline-block;
-}
-#firstCol{
-    width: 40%;
-}
-#secondCol{
-    width: 15%;
-}
-#thirdCol{
-    width: 15%;
-}
-#fourCol{
-    width: 25%;
-}
-#footer #fourCol p{
-    padding-bottom: 3rem;
-}
+
 #footer .wrapper{
     display: flex;
+    justify-content: space-around;
 }
+#footer .wrapper div{
+    margin: 2rem;
+}
+.navBar-menu{
+    display: none;
+}
+.navBar-menu i{
+    display: block;
+    margin: .2rem;
+}
+
+
+@media all and (max-width: 980px) {
+    .navBar-menu{
+        cursor: pointer;
+        width: 100%;
+        color: #eff7fa;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .service-content .content-item{
+        display: flex;
+    }
+    .service-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-item p,h4{
+        text-align: left;
+    }
+    #header{
+        position: relative;
+    }
+    #navBar ul{
+        background-color: #19283f;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 3rem;
+        right: 0;
+        width: 25%;
+        transform: translateX(100%);
+        transition: transform 2s ;
+        height: 90%;
+    }
+    #navBar ul a{
+    }
+    #navBar ul.open-navBar{
+        transform: translateX(0%);
+        transition: transform 2s;
+    }
+    #portfolio-menu{
+        width: 80%;
+    }
+    #aboutUs-title {
+        width: 80%;
+    }
+    #info-macBook{
+        flex-wrap: wrap;
+    }
+    #macBook{
+        padding: 2rem;
+    }
+    #macBook img{
+        width: 100%;
+
+    }
+    #aboutUs-info h2,p,a{
+        text-align: center;
+        padding: 2rem;
+    }
+    #meetTheTeam-team{
+        display: flex;
+    }
+    #footer .wrapper{
+        flex-wrap: wrap;
+    }
+ }

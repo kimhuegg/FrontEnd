@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    height: 100%;
+}
+.noidungto{
+    height: 100%;
+    transition: .4s;
+    box-sizing: border-box;
+    perspective: 2200px;
+
+}
+.menutrai{
+    height: 100%;
+    background-color: #5cb85c;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: .4s;
+
+}
+.menutrai.vetrai{
+    transform: translateX(-100%);
+}
+html, body{
+    height: 100%;
+    background-color: grey;
+}
+li.list-group-item{
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+h3.display-3.text-center{
+    font-size: 34px;
+    padding: 20px;
+    color: white;
+}
+.nut{
+    margin-left: 300px;
+    display: block;
+    width: 100px;
+    margin:200px auto;
+}
+.den{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.363);
+    cursor: pointer;
+    transition: .4s;
+    opacity: 0;
+    visibility: hidden;
+}
+.len{
+    opacity: 1;
+    visibility: visible;
+
+}
+.dichphai{
+    transform: translateX(300px);
+}
+.mautrang{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transition: .4s;
+    transform-origin: 100% 0% ;
+    
+}
+.trangquay{
+    
+    transform: rotateY(-15deg);
+}

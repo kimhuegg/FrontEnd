@@ -1,226 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bondi</title>
-    <link rel="stylesheet" href="bondi.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="bondi.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
     <div id="header">
-        <div class="wrapper">
-            <div id="navBar">
-                <div id="logo"><img src="theme.png" alt=""></div>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-                <a href=""><i class="fa fa-search"></i></a>
-                <a href="" class="bottom">Login</a>
-            </div>
-            <div id="header-title">
-                <h1>Taste the Creativity</h1>
-                <p>We make awesome graphic and web design</p><br><br>
-                <a class="bottom">Get start !</a>
-            </div>
+      <div class="wrapper">
+        <div id="navBar">
+          <div id="logo"><img src="theme.png" alt="" /></div>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li>
+              <a href="" class="search">| <i class="fa fa-search"></i></a>
+            </li>
+            <li><a href="" class="bottom">Login</a></li>
+          </ul>
+          <div class="navBar-menu">
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-times"></i>
+          </div>
         </div>
+        <div id="header-title">
+          <h1>Taste the Creativity</h1>
+          <p>We make awesome graphic and web design</p>
+          <br /><br />
+          <a class="bottom">Get start !</a>
+        </div>
+      </div>
     </div>
     <div id="service">
-        <div class="wrapper">
-            <div id="service-title">
-                <img class="logo-title" src="logo.png" alt="">
-                <h2>We Are Good At</h2>
-                <p>SOME OF THEASE STAFF UNDER</p><br>
-                <hr>
-            </div>
-            <ul>
-                <li>
-                    <img src="1.png" alt="">
-                    <img src="title1.png" class="title" alt="">
-                    <h4>GRAPHIC DESIGN</h4><br>
-                    <P>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</P>
-                </li>
-                <li>
-                    <img src="2.png" alt="">
-                    <img src="title2.png"  class="title" alt="">
-                    <h4>WEB DESIGN</h4><br>
-                    <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
-                </li>
-                <li>
-                    <img src="3.png" alt="">
-                    <img src="title3.png"  class="title" alt="">
-                    <h4>APP DESIGN</h4><br>
-                    <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
-                </li>
-            </ul>
-
+      <div class="wrapper">
+        <div id="service-title">
+          <img class="logo-title" src="logo.png" alt="" />
+          <h2>We Are Good At</h2>
+          <p>SOME OF THEASE STAFF UNDER</p>
+          <hr />
         </div>
+        <div class="service-content">
+          <div class="content-item">
+            <div class="content-img">
+              <img class="number" src="1.png" alt="" />
+              <img src="title1.png" class="title" alt="" />
+            </div>
+            <div>
+              <h4>GRAPHIC DESIGN</h4>
+              <br />
+              <p>
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+            </div>
+          </div>
+
+          <div class="content-item">
+            <div class="content-img">
+              <img class="number" src="2.png" alt="" />
+              <img src="title2.png" class="title" alt="" />
+            </div>
+            <div>
+              <h4>WEB DESIGN</h4>
+              <br />
+              <p>
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+            </div>
+          </div>
+
+          <div class="content-item">
+            <div class="content-img">
+              <img src="3.png" alt="" class="number" />
+              <img src="title3.png" class="title" alt="" />
+            </div>
+            <div>
+              <h4>APP DESIGN</h4>
+              <br />
+              <p>
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="portfolio">
-        <div class="wrapper">
-            <div id="portfolio-title">
-                <img class="logo-title" src="logo.png" alt="">
-                <h2>We Make It</h2>
-                <p>PREPARE TO BE AMAZED</p><br>
-                <hr>
-            </div>
-            <ul id="portfolio-menu">
-                <li><a href="" >All</a></li>
-                <li><a href="" >Design</a></li>
-                <li><a href="" >Code</a></li>
-                <li><a href="" >Apps</a></li>
-            </ul>
-            <div id="portfolio-works">
-                <p>awesome work</p>
-                <p>awesome work</p>
-                <p>awesome work</p>
-                <p>awesome work</p>
-                <p>awesome work</p>
-                <p>awesome work</p>
-                <p>awesome work</p>
-                <p>awesome work</p>
-            </div>
-            <a href="" class="bottom">I WANT MORE...</a>
+      <div class="wrapper">
+        <div id="portfolio-title">
+          <img class="logo-title" src="logo.png" alt="" />
+          <h2>We Make It</h2>
+          <p>PREPARE TO BE AMAZED</p>
+          <hr />
         </div>
+        <ul id="portfolio-menu">
+          <li><a href="">All</a></li>
+          <li><a href="">Design</a></li>
+          <li><a href="">Code</a></li>
+          <li><a href="">Apps</a></li>
+        </ul>
+        <div id="portfolio-works">
+          <div>
+            <p>awesome work</p>
+            <br />
+            <p>/design</p>
+          </div>
+          <div>
+            <p>awesome work</p>
+            <br />
+            <p>/design</p>
+          </div>
+          <div>
+            <p>awesome work</p>
+            <br />
+            <p>/design</p>
+          </div>
+          <div>
+            <p>awesome work</p>
+            <br />
+            <p>/design</p>
+          </div>
+          <div>
+            <p>awesome work</p>
+            <br />
+            <p>/design</p>
+          </div>
+          <div>
+            <p>awesome work</p>
+            <br />
+            <p>/design</p>
+          </div>
+          <div>
+            <p>awesome work</p>
+            <br />
+            <p>/design</p>
+          </div>
+          <div>
+            <p>awesome work</p>
+            <br />
+            <p>/design</p>
+          </div>
+        </div>
+        <a href="" class="bottom">I WANT MORE...</a>
+      </div>
     </div>
     <div id="aboutUs">
-        <div class="wrapper">
-            <div id="aboutUs-title">
-                <img class="logo-title" src="logo.png" alt="">
-                <h2>Some Stuff About Us</h2>
-                <p>THE GREAT TEAM</p><br>
-                <hr>
-                <br>
-                <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
-            </div>
-            <div id="info-macBook">
-                <div id="aboutUs-info">
-                    <h2>Retina Design</h2><br>
-                    <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. <br><br>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
-                    <br><br>
-                    <a href="" class="bottom">ORDER ME ONE</a>
-                </div>
-                <div id="macBook"><img src="macbook.png" alt=""></div>
-            </div>
-
+      <div class="wrapper">
+        <div id="aboutUs-title">
+          <img class="logo-title" src="logo.png" alt="" />
+          <h2>Some Stuff About Us</h2>
+          <p>THE GREAT TEAM</p>
+          <hr />
+          <p id="paragraph">
+            Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
+            eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta
+            dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+            malesuada.
+          </p>
         </div>
+        <div id="info-macBook">
+          <div id="aboutUs-info">
+            <h2>Retina Design</h2>
+            <br />
+            <p>
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              <br /><br />Donec rutrum congue leo eget malesuada. Mauris blandit
+              aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in
+              ipsum id orci porta dapibus. Proin eget tortor risus. Donec
+              sollicitudin molestie malesuada.
+            </p>
+            <br /><br />
+            <a href="" class="bottom">ORDER ME ONE</a>
+          </div>
+          <div id="macBook"><img src="macbook.png" alt="" /></div>
+        </div>
+      </div>
     </div>
     <div id="meetTheTeam">
-        <div class="wrapper">
-            <div id="meetTheTeam-title">
-                <h2>Meet The Team</h2>
-                <br>
-                <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
-            </div>
-            <ul id="meetTheTeam-team">
-                <li>
-                    <p class="mask">Luke Skywalker</p>
-                    <p class="path">“I don't understand how we got by those troops. I thought we were dead.“</p>
-                </li>
-                <li>
-                    <p class="mask">Luke Skywalker</p>
-                    <p class="path">“I don't understand how we got by those troops. I thought we were dead.“</p>
-                </li>
-                <li>
-                    <p class="mask">Luke Skywalker</p>
-                    <p class="path">“I don't understand how we got by those troops. I thought we were dead.“</p>
-                </li>
-                <li>
-                    <p class="mask">Luke Skywalker</p>
-                    <p class="path">“I don't understand how we got by those troops. I thought we were dead.“</p>
-                </li>
-            </ul>
+      <div class="wrapper">
+        <div id="meetTheTeam-title">
+          <h2>Meet The Team</h2>
+          <br />
+          <p>
+            Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
+            eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta
+            dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+            malesuada.
+          </p>
         </div>
+        <ul id="meetTheTeam-team">
+          <li>
+            <p class="mask">Luke Skywalker</p>
+            <p class="path">
+              “I don't understand how we got by those troops. I thought we were
+              dead.“
+            </p>
+          </li>
+          <li>
+            <p class="mask">Luke Skywalker</p>
+            <p class="path">
+              “I don't understand how we got by those troops. I thought we were
+              dead.“
+            </p>
+          </li>
+          <li>
+            <p class="mask">Luke Skywalker</p>
+            <p class="path">
+              “I don't understand how we got by those troops. I thought we were
+              dead.“
+            </p>
+          </li>
+          <li>
+            <p class="mask">Luke Skywalker</p>
+            <p class="path">
+              “I don't understand how we got by those troops. I thought we were
+              dead.“
+            </p>
+          </li>
+        </ul>
+      </div>
     </div>
     <div id="clients">
-        <div class="wrapper">
-            <ul>
-                <li><img src="logo1.png" alt=""></li>
-                <li><img src="logo2.png" alt=""></li>
-                <li><img src="logo3.png" alt=""></li>
-                <li><img src="logo1.png" alt=""></li>
-                <li><img src="logo2.png" alt=""></li>
-            </ul>
-        </div>
+      <div class="wrapper">
+        <ul>
+          <li><img src="logo1.png" alt="" /></li>
+          <li><img src="logo2.png" alt="" /></li>
+          <li><img src="logo3.png" alt="" /></li>
+          <li><img src="logo1.png" alt="" /></li>
+          <li><img src="logo2.png" alt="" /></li>
+        </ul>
+      </div>
     </div>
     <div id="advertise">
-        <div class="wrapper">
-            <div id="advertise-title">
-                <h2>Start Your Project Now</h2><br>
-                <p>Leave your description and we start the engine.Don't worry,you can cancel anytime</p><br><br>
-                <a href="" class="bottom">START PROJECT</a>
-            </div>
+      <div class="wrapper">
+        <div id="advertise-title">
+          <h2>Start Your Project Now</h2>
+          <br />
+          <p>
+            Leave your description and we start the engine.Don't worry,you can
+            cancel anytime
+          </p>
+          <br /><br />
+          <a href="" class="bottom">START PROJECT</a>
         </div>
+      </div>
     </div>
     <div id="blog">
-        <div class="wrapper">
-            <div id="blog-title">
-                <img class="logo-title" src="logo.png" alt="">
-                <h2>Read Our Project</h2>
-                <p>NEW STORIES</p><br>
-                <hr>
-            </div>
-            <ul>
-                <li>
-                    <p class="blog-date">January 17,2017</p>
-                    <p><strong>Some Awesome Blog Title Here</strong> </p>
-                </li>
-                <li>
-                    <p class="blog-date">January 17,2017</p>
-                    <p><strong>Some Awesome Blog Title Here</strong> </p>
-                </li>
-                <li>
-                    <p class="blog-date">January 17,2017</p>
-                    <p><strong>Some Awesome Blog Title Here</strong> </p>
-                </li>
-            </ul>
-            <a href="" class="bottom">MORE STORY</a>
+      <div class="wrapper">
+        <div id="blog-title">
+          <img class="logo-title" src="logo.png" alt="" />
+          <h2>Read Our Project</h2>
+          <p>NEW STORIES</p>
+          <br />
+          <hr />
         </div>
+        <ul>
+          <li>
+            <p class="blog-date">January 17,2017</p>
+            <p><strong>Some Awesome Blog Title Here</strong></p>
+          </li>
+          <li>
+            <p class="blog-date">January 17,2017</p>
+            <p><strong>Some Awesome Blog Title Here</strong></p>
+          </li>
+          <li>
+            <p class="blog-date">January 17,2017</p>
+            <p><strong>Some Awesome Blog Title Here</strong></p>
+          </li>
+        </ul>
+        <a href="" class="bottom">MORE STORY</a>
+      </div>
     </div>
     <div id="newsletter">
-        <div class="wrapper">
-            <p>Subscribe to our Newsletter:
-                <input type="text" id="email" name="fname" value="Enter email Address">
-                <a href="" class="bottom"> Subscribe</a>
-            </p>
-
-        </div>
+      <div class="wrapper">
+        <p>Subscribe to our Newsletter:</p>
+        <input
+          type="text"
+          id="email"
+          name="fname"
+          value="Enter email Address"
+        />
+        <a href="" class="bottom"> Subscribe</a>
+      </div>
     </div>
     <div id="footer">
-        <div class="wrapper">
-            <div id="firstCol">
-                <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p><br><br><br>
-                <p>Created by Graphberry,Belgrade,Serbia</p>
-                <i class="fa fa-copyright" aria-hidden="true">Bordi.Inc</i>
-            </div>
-            <div id="secondCol">
-                <h4>Links</h4><br>
-                <p>Home</p>
-                <p>Our Services</p>
-                <p>Portfolio</p>
-                <p>Testimonials</p>
-                <p>Support</p>
-                <p>Terms and Conditions</p>
-            </div>
-            <div id="thirdCol">
-                <h4>About Us</h4><br>
-                <p>Sign In</p>
-                <p>Register</p>
-                <p>About Us</p>
-                <p>Blog</p>
-                <p>Contact Us</p>
-            </div>
-            <div id="fourCol">
-                <h4>Contact Us</h4><br>
-                <p>Get in touch with us via mail phone.We are waiting for your call or message</p>
-                <a href="" class="bottom">graphberry@gmail.com</a>
-            </div>
-
+      <div class="wrapper">
+        <div id="firstCol">
+          <p>
+            Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+            lacinia eget consectetur sed, convallis at tellus.
+          </p>
+          <br /><br /><br />
+          <p>Created by Graphberry,Belgrade,Serbia</p>
+          <i class="fa fa-copyright" aria-hidden="true">Bordi.Inc</i>
         </div>
+        <div id="secondCol">
+          <h4>Links</h4>
+          <br />
+          <p>Home</p>
+          <p>Our Services</p>
+          <p>Portfolio</p>
+          <p>Testimonials</p>
+          <p>Support</p>
+          <p>Terms and Conditions</p>
+        </div>
+        <div id="thirdCol">
+          <h4>About Us</h4>
+          <br />
+          <p>Sign In</p>
+          <p>Register</p>
+          <p>About Us</p>
+          <p>Blog</p>
+          <p>Contact Us</p>
+        </div>
+        <div id="fourCol">
+          <h4>Contact Us</h4>
+          <br />
+          <p>
+            Get in touch with us via mail phone.We are waiting for your call or
+            message
+          </p>
+          <a href="" class="bottom">graphberry@gmail.com</a>
+        </div>
+      </div>
     </div>
-</body>
+
+    <script src="./bondi.js"></script>
+  </body>
 </html>
