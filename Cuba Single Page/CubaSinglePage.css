@@ -1,0 +1,412 @@
+*, *::before, *::after{ margin: 0; padding: 0 }
+body{
+    font-family: 'Segoe ui light';
+}
+.welcome{
+    background: #87509c;
+    padding-bottom: 8rem;
+    padding-top: 1rem;
+}
+.navbar-brand{
+    width: 50%;
+}
+ul.navbar-nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.navbar-nav a.nav-link{
+    text-transform: uppercase;
+    color: white!important;
+    letter-spacing: .1px !important;
+    font-size: 16px;
+}
+.navbar-nav a.nav-link:hover{
+    background-color: #643a79;
+}
+h2.text-center {
+    font-weight: bolder;
+    width: 90%;
+    margin: 9rem auto 3rem auto;
+    color: white;
+}
+
+button.btn {
+    padding: 0.6rem 4rem;
+    text-transform: uppercase;
+    background-color: #eb7d4b;
+    color: white;
+}
+.services{
+    background-color: #17c2a4;
+    padding-bottom: 100px;
+}
+.services-title{
+    width: 60%;
+    margin:0 auto;
+    padding-top: 4rem;
+    padding-bottom: 60px;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+}
+hr{
+    width: 100%;
+    border: 2px solid rgba(85, 82, 82, 0.432);
+}
+.ke{
+    width: 100px;
+    margin: 0 auto;
+    
+}
+p{
+    color: white;
+}
+.title-h3{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.set-img {
+    height: 150px;
+    margin-bottom: 55px;
+    object-fit: cover;
+}
+.team p{
+    color:#535e75;
+}
+.team{
+    
+    background-color: #e7f1f8;
+}
+.team small{
+    display: block;
+    margin-bottom: 18px;
+}
+.ikon{
+    display: flex;
+    justify-content: center;
+}
+.ikon div{
+    background-color: #bdd1df;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+section{
+    padding-bottom: 100px ;
+}
+.skill{
+    background: #ffffff;
+}
+.skill p{
+    color: #393939;
+}
+.skill .row h3{
+    color: #393939;
+}
+.portfolio{
+    background-color: #ffdd99;
+}
+.portfolio p{
+    color: #393939;
+}
+
+.menu a{
+    background-color: #ebc985;
+    color: #393939;
+    width: 80px;
+    margin: 0 3px;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    background-color: #fff;
+    
+}
+img.port-img {
+    width: 100%;
+}
+.portfolio h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 41px;
+}
+.nut {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio .nut a.btn {
+    background-color: #17c2a4;
+    padding:  14px 49px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.portfolio .row h3{
+    color: #393939;
+}
+.testimonials i {
+    display: block;
+    padding-bottom: 26px;
+}
+
+.col-sm-9 {
+    padding-right: 46px;
+}
+
+.col-sm-9 h3.title-h3 {
+    margin: 0;
+}
+.testimonials{
+    background-color: #d74680;
+}
+.testimonials .row .col:nth-child(1){
+    margin-bottom: 90px;
+}
+.testimonials h2,i,p,h3{
+    color: #fff;
+}
+.testimonials small{
+    color: #ffdd99;
+}
+.getInTouch{
+    background-color: #3c5499;
+}
+.getInTouch h2{
+    color: #fff;
+}
+.inputForm{
+    display: flex;
+    justify-content: space-between;
+}
+.inputForm input{
+    width: 200px;
+}
+*, *::before, *::after{ margin: 0; padding: 0 }
+body{
+    font-family: 'Segoe ui light';
+}
+.welcome{
+    background: #87509c;
+    padding-bottom: 8rem;
+    padding-top: 1rem;
+}
+.navbar-brand{
+    width: 50%;
+}
+ul.navbar-nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.navbar-nav a.nav-link{
+    text-transform: uppercase;
+    color: white!important;
+    letter-spacing: .1px !important;
+    font-size: 16px;
+}
+.navbar-nav a.nav-link:hover{
+    background-color: #643a79;
+}
+h2.text-center {
+    font-weight: bolder;
+    width: 90%;
+    margin: 9rem auto 3rem auto;
+    color: white;
+}
+
+button.btn {
+    padding: 0.6rem 4rem;
+    text-transform: uppercase;
+    background-color: #eb7d4b;
+    color: white;
+}
+.services{
+    background-color: #17c2a4;
+    padding-bottom: 100px;
+}
+.services-title{
+    width: 60%;
+    margin:0 auto;
+    padding-top: 4rem;
+    padding-bottom: 60px;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+}
+hr{
+    width: 100%;
+    border: 2px solid rgba(85, 82, 82, 0.432);
+}
+.ke{
+    width: 100px;
+    margin: 0 auto;
+    
+}
+p{
+    color: white;
+}
+.title-h3{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.set-img {
+    height: 150px;
+    margin-bottom: 55px;
+    object-fit: cover;
+}
+.team p{
+    color:#535e75;
+}
+.team{
+    
+    background-color: #e7f1f8;
+}
+.team small{
+    display: block;
+    margin-bottom: 18px;
+}
+.ikon{
+    display: flex;
+    justify-content: center;
+}
+.ikon div{
+    background-color: #bdd1df;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+section{
+    padding-bottom: 100px ;
+}
+.skill{
+    background: #ffffff;
+}
+.skill p{
+    color: #393939;
+}
+.skill .row h3{
+    color: #393939;
+}
+.portfolio{
+    background-color: #ffdd99;
+}
+.portfolio p{
+    color: #393939;
+}
+
+.menu a{
+    background-color: #ebc985;
+    color: #393939;
+    width: 80px;
+    margin: 0 3px;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    background-color: #fff;
+    
+}
+img.port-img {
+    width: 100%;
+}
+.portfolio h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 41px;
+}
+.nut {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio .nut a.btn {
+    background-color: #17c2a4;
+    padding:  14px 49px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.portfolio .row h3{
+    color: #393939;
+}
+.testimonials i {
+    display: block;
+    padding-bottom: 26px;
+}
+
+.col-sm-9 {
+    padding-right: 46px;
+}
+
+.col-sm-9 h3.title-h3 {
+    margin: 0;
+}
+.testimonials{
+    background-color: #d74680;
+}
+.testimonials .row .col:nth-child(1){
+    margin-bottom: 90px;
+}
+.testimonials h2,i,p,h3{
+    color: #fff;
+}
+.testimonials small{
+    color: #ffdd99;
+}
+.getInTouch{
+    background-color: #3c5499;
+}
+.getInTouch h2{
+    color: #fff;
+}
+.inputForm{
+    display: flex;
+    justify-content: space-between;
+}
+.inputForm input{
+    width: 541px;
+    height: 48px;
+    background-color: #273a71;
+    border: none;
+}
+textarea#exampleFormControlTextarea1 {
+    background-color: #273a71;
+    border: none;
+    height: 150px;
+}
+.getInTouch .nut a.btn {
+    margin-top: 40px;
+    background-color: #17c2a4;
+    padding:  14px 49px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer{
+    background-color: #344b8e;
+}
+.end{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.end a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fff;
+}

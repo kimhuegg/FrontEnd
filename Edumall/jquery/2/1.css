@@ -1,0 +1,25 @@
+*, *::before, *::after{ margin: 0; padding: 0 }
+.container {
+    text-align: center;
+}
+
+.hieuung {
+    width: 40%;
+    margin: auto;
+}
+
+
+.ndmotkhoi {
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.motkhoi h3 {
+    background: gray;
+    color: white;
+    padding: 10px 12px;
+}
+
+.motkhoi h3:hover {
+    background: yellow;
+}

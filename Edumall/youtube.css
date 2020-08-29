@@ -1,0 +1,28 @@
+*, *::before, *::after{ margin: 0; padding: 0 }
+.slides{
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    height: 500px;
+}
+.noidungslide{
+    width: 2000px;
+    display: flex;
+}
+.motslide{
+    width: 200px;
+    font-family: segoe ui light;
+    font-size: 13px;
+}
+.nut{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: blueviolet;
+    width: 100%;
+    height: 30px;
+}
+.motslide img{
+    width: 100%;
+}

@@ -1,0 +1,59 @@
+*, *::before, *::after{ margin: 0; padding: 0 }
+h1.tieude{
+    font-family: 'Josefin Slab', serif ;
+    font-weight: 100;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 37px;
+}
+body{
+    background: url('nen.png');
+
+}
+.noidung{
+        width: 50%;
+    margin: auto;
+}
+img.anhnho{
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+}
+.vaicaianh{
+    overflow: hidden;
+}
+._1khoi{
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+h2.tdkhoi{
+    height: 35px;
+    font-size: 30px;
+    color: blue;
+
+}
+h2.tdkhoi:hover{
+    color: rgb(122, 201, 228);
+
+}
+.tdkhoi img{
+    float: right;
+    transition: .4s;
+    transform: rotate(0deg);
+    padding-top: 20px;
+    margin-right: -40px;
+    
+}
+h2.tdkhoi:hover img{
+margin-right: 5px;
+}
+.tdkhoi.xanh{
+    color: lightblue;
+}
+.tdkhoi.xanh img{
+    margin-right: 5px;
+    transform: rotate(180deg);
+    margin-top: 10px;
+}
